@@ -1,4 +1,6 @@
 Revision history for Dist-Zilla-Plugin-IRC
 
 {{$NEXT}}
+
+0.001     2026-05-08 00:49:27+02:00 Europe/Brussels
           - Initial release
