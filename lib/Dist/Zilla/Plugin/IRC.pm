@@ -39,7 +39,7 @@ around BUILDARGS => sub($orig, $class, $args) {
 
 my %web_for = (
 	'irc.libera.org'    => 'https://web.libera.chat/#%s',
-	'chat.freenode.org' => 'http://webchat.freenode.net/?channels=%23'
+	'chat.freenode.org' => 'http://webchat.freenode.net/?channels=%%23%s',
 );
 
 sub metadata($self) {
